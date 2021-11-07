@@ -30,12 +30,11 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           primaryColor: Color(0xFF9AD6BD),
-
           primarySwatch: Colors.blue,
         ),
-        home: _auth.currentUser != null? ControllerViewScreen() :StartScreen(),
+        home:
+            _auth.currentUser != null ? ControllerViewScreen() : StartScreen(),
       ),
     );
   }
 }
-

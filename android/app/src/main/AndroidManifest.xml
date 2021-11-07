@@ -2,7 +2,7 @@
     package="com.example.relocker_sa">
    <application
         android:label="relocker_sa"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/launcher_icon">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
